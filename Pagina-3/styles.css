@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
+
+.main {
+  padding-top: 20px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.col-md-6 {
+  padding: 20px;
+}
+
+.img-fluid {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}

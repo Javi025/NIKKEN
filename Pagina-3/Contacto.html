@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NIKKEN - Contacto</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="scripts.js"></script>
+  <style>
+        .contact {
+            background-color: #f7f7f7;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .contact h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 0;
+        }
+        .contact p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .contact-form {
+            margin-top: 20px;
+        }
+        .contact-form label {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+        }
+        .contact-form button[type="submit"] {
+            background-color: #337ab7;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button[type="submit"]:hover {
+            background-color: #23527c;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <img src="logo-nikken.PNG" alt="NIKKEN logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Ofertas.html">Ofertas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Sobre nosotros.html">Sobre nosotros</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="Contacto.html">Contacto <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Formulario.html">Formulario</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          <i class="bi bi-search"></i>
+        </button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Secciones de contenido -->
+  <div class="container">
+        <h1 class="my-4">Contacto</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contact">
+                    <h2>Información de contacto</h2>
+                    <p>Si tienes alguna pregunta o necesitas ayuda, no dudes en ponerte en contacto con nosotros.</p>
+                    <p>Dirección: Av. Principal 123, Ciudad, País</p>
+                    <p>Teléfono: 555-555-5555</p>
+                    <p>Email: [info@NIKKEN.com](mailto:info@NIKKEN.com)</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="contact-form">
+                    <h2>Formulario de contacto</h2>
+                    <form>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name"><br><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"><br><br>
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message"></textarea><br><br>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Pie de página -->
+  <footer class="footer">
+    <p>&copy; 2024 NIKKEN. Todos los derechos reservados.</p>
+  </footer>
+  
+</body>
+</html>
